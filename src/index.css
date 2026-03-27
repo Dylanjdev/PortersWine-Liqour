@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --wine-950: #130108;
+  --wine-900: #20020c;
+  --wine-850: #2e0411;
+  --wine-800: #410619;
+  --wine-700: #5f0b24;
+  --gold-300: #dfc084;
+  --gold-200: #f0dcae;
+  --gold-100: #f8ecd2;
+  --cream-100: #f8eade;
+  --ink: #f5e4d7;
+  --surface: linear-gradient(145deg, rgba(61, 8, 24, 0.93), rgba(19, 2, 9, 0.95));
+  --edge: rgba(213, 184, 130, 0.34);
+  --shadow-soft: 0 26px 45px rgba(0, 0, 0, 0.5);
+  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+
+  font-family: var(--font-body);
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--wine-950);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background:
+    radial-gradient(70rem 40rem at -5% -10%, rgba(124, 20, 47, 0.4), transparent 55%),
+    radial-gradient(60rem 38rem at 110% 0%, rgba(163, 121, 62, 0.16), transparent 54%),
+    linear-gradient(180deg, var(--wine-900), var(--wine-950));
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.06;
+  font-weight: 600;
+}
